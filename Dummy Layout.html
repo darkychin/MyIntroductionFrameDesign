@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <!-- Customize CSS-->
+  <style>
+    html,body {
+      height:100%;
+    }
+    /*.flex-fill {
+      flex:1 1 auto;
+    } */
+    
+    /* References for this website
+    1)
+    use :target to correctly anchor your page when linking
+    check out this site
+    http://jsfiddle.net/5Ngft/
+
+    2) 
+    fixed top and side bar
+    best is to use padding top 56px;
+    https://stackoverflow.com/questions/49641293/bootstrap-4-fixed-top-nav-and-fixed-sidebar
+    */
+  </style>
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <!--p>Nav Bar</p-->
+  <!-- Show selection when screen is in medium range-->
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavBar">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Section 1</a>
+        <a class="nav-item nav-link" href="#">Section 2</a>
+        <a class="nav-item nav-link" href="#">Section 3</a>
+        <a class="nav-item nav-link" href="#">Section 4</a>
+        <a class="nav-item nav-link" href="#">Section 5</a>
+        <a class="nav-item nav-link" href="#">Section 6</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid" style="border:1px solid brown;padding-top:60px;">
+    <div class ="row">
+      <!--Main Content-->
+      <div class="col-md-8" style="border:1px solid pink">
+        <p>A lot of h-100 sections</p>
+      </div>
+
+      <!-- Profile Bar-->
+      <div class="col-md-4" style="border:1px solid yellowgreen">
+        <p>Hi I am Darky</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
