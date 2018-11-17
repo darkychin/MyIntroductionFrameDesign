@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <!-- Customize CSS-->
+  <style>
+    html,body {
+      height:100%;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="d-md-flex flex-column h-100">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="nav-item nav-link" href="#">Section 1</a>
+        <a class="nav-item nav-link" href="#">Section 2</a>
+        <a class="nav-item nav-link" href="#">Section 3</a>
+        <a class="nav-item nav-link" href="#">Section 4</a>
+        <a class="nav-item nav-link" href="#">Section 5</a>
+        <a class="nav-item nav-link" href="#">Section 6</a>
+    </nav>
+    <div class="container-fluid d-flex h-100">
+      <div class="row flex-fill">
+        <div class="col-md-9">
+          <div class="row h-100">
+            <div class="col-md-12 d-flex flex-column flex-fill">
+              <div class="btn-toolbar justify-content-between flex-shrink-0" id="label-toolbar">
+                <div class="btn-group">
+                  <select class="form-control form-control-sm" id="label-option">
+                    <option>Main</option>
+                    <option>Unknown</option>
+                  </select>
+                  <button type="button" class="btn btn-outline-primary btn-sm" id="create-button">Create</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm" id="delete-button">Delete</button>
+                  <button type="button" class="btn btn-outline-primary btn-sm" id="edit-button">Edit</button>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline-success btn-sm" id="previous-button">Previous</button>
+                  <button type="button" class="btn btn-outline-success btn-sm" id="next-button">Next</button>
+                </div>
+              </div>
+
+              <div id="draw-area" class="flex-fill bg-warning p-3">
+                <div class="flex-fill">
+                  <h4>Draw area</h4>
+
+                  <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing
+                    brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape
+                    swag
+                    wolf squid tote bag. Tote
+                    bag cronut semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade
+                    ethical
+                    Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic
+                    Bushwick
+                    artisan cliche semiotics
+                    ugh synth chillwave meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable
+                    cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+
+                  <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free
+                    Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them,
+                    vegan farm-to-table Williamsburg
+                    slow-carb readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel
+                    whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR
+                    selfies. Banh mi McSweeney's
+                    Shoreditch selfies, forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack
+                    art
+                    party Portland.</p>
+                </div>
+                <div class="flex-fill">
+                  <h4>Draw area2</h4>
+
+                  <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing
+                    brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape
+                    swag
+                    wolf squid tote bag. Tote
+                    bag cronut semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade
+                    ethical
+                    Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic
+                    Bushwick
+                    artisan cliche semiotics
+                    ugh synth chillwave meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable
+                    cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+
+                  <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free
+                    Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them,
+                    vegan farm-to-table Williamsburg
+                    slow-carb readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel
+                    whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR
+                    selfies. Banh mi McSweeney's
+                    Shoreditch selfies, forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack
+                    art
+                    party Portland.</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 label-sidebar">
+
+
+          <h4>Sidebar</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
